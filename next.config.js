@@ -1,6 +1,11 @@
 // next.config.js
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     domains: ['cdn.pixabay.com'],
   },
-};
+}
+
+module.exports = nextConfig
