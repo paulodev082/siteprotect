@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/images/LOGOORIGINAL.png"
+            src="/images/logo.png"
             alt="Protect Tecnologia"
             width={170}
             height={50}

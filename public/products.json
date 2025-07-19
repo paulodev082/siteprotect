@@ -3,60 +3,60 @@
     "name": "Câmera Bullet HD Intelbras",
     "description": "Câmera Bullet HD com infravermelho, ideal para áreas externas. Resolução HD 720p. Lente de 2.6mm.",
     "category": "Câmeras Intelbras",
-    "image": "/images/catalago/camera-bullet-hd.jpg"
+    "image": "/images/catalogo/camera-bullet-hd.jpg"
   },
   {
     "name": "Câmera Dome Full HD Intelbras",
     "description": "Câmera Dome Full HD com visão noturna e instalação discreta para ambientes internos.",
     "category": "Câmeras Intelbras",
-    "image": "/images/catalago/camera-dome-full-hd.jpg"
+    "image": "/images/catalogo/camera-dome-full-hd.jpg"
   },
   {
     "name": "Central de Alarme Intelbras AMT 2018E",
     "description": "Central de alarme com 18 zonas, discadora integrada e controle remoto. Ideal para residências e empresas.",
     "category": "Centrais de Alarme Intelbras",
-    "image": "/images/catalago/central-amt-2018e.png"
+    "image": "/images/catalogo/central-amt-2018e.png"
   },
   {
     "name": "Central de Alarme CP 11200",
     "description": "Central de alarme com suporte a sensores com fio e sem fio. Fácil configuração e monitoramento remoto.",
     "category": "Centrais de Alarme Intelbras",
-    "image": "/images/catalago/central-cp-11200.jpg"
+    "image": "/images/catalogo/central-cp-11200.jpg"
   },
   {
     "name": "Roteador Wi-Fi Dual Band Intelbras",
     "description": "Roteador com frequências 2.4GHz e 5GHz, ideal para streaming e jogos online com maior estabilidade.",
     "category": "Roteadores Intelbras",
-    "image": "/images/catalago/roteador-dualband.jpg"
+    "image": "/images/catalogo/roteador-dualband.jpg"
   },
   {
     "name": "Roteador Mesh Intelbras Twibi Giga",
     "description": "Sistema Mesh que cobre grandes áreas com Wi-Fi rápido e estável. Instalação fácil via app.",
     "category": "Roteadores Intelbras",
-    "image": "/images/catalago/roteador-twibi.jpg"
+    "image": "/images/catalogo/roteador-twibi.jpg"
   },
   {
     "name": "Cabo de Rede Cat 5e UTP 100m",
     "description": "Cabo de rede UTP categoria 5e com 100 metros, ideal para instalações residenciais e comerciais.",
     "category": "Cabos de Rede CAT 5 e 6",
-    "image": "/images/catalago/cabo-cat5e.jpg"
+    "image": "/images/catalogo/cabo-cat5e.jpg"
   },
   {
     "name": "Cabo de Rede Cat 6 Blindado 305m",
     "description": "Cabo blindado Cat 6 com 305 metros, ideal para ambientes com maior interferência eletromagnética.",
     "category": "Cabos de Rede CAT 5 e 6",
-    "image": "/images/catalago/cabo-cat6-blindado.png"
+    "image": "/images/catalogo/cabo-cat6-blindado.png"
   },
   {
     "name": "Gravador DVR Intelbras MHDX 3108",
     "description": "Gravador DVR para até 8 canais com suporte a câmeras HD, visualização remota e fácil backup.",
     "category": "Gravadores DVR",
-    "image": "/images/catalago/gravador-dvr.jpg"
+    "image": "/images/catalogo/gravador-dvr.jpg"
   },
   {
     "name": "Gravador NVR Intelbras NVD 3132",
     "description": "Gravador NVR IP para até 32 câmeras. Alta capacidade de armazenamento e suporte a monitoramento remoto.",
     "category": "Gravadores DVR",
-    "image": "/images/catalago/gravador-nvr.jpg"
+    "image": "/images/catalogo/gravador-nvr.jpg"
   }
 ]
