@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/*"
+  to = "https://www.protect-network.com.br/:s"
+  status = 301
+  force = true
+  conditions = { Host = ["protect-network.com.br"] }
