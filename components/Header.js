@@ -30,7 +30,7 @@ export default function Header() {
         <Link href="/" className="flex items-center space-x-2">
           <Image
             src="/images/logo.png"
-            alt="Protect Tecnologia"
+            alt="Protect Network"
             width={170}
             height={50}
             className="w-auto h-12 md:h-14"

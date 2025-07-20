@@ -17,7 +17,7 @@ export default function Sobre() {
         >
           <img
             src="/images/pessoas/sobre-protect.png"
-            alt="Equipe da Protect Tecnologia instalando câmeras de segurança em ambiente corporativo"
+            alt="Equipe da Protect Network instalando câmeras de segurança em ambiente corporativo"
             className="rounded-xl shadow-lg w-full h-auto"
             loading="lazy"
           />
@@ -34,11 +34,11 @@ export default function Sobre() {
             id="sobre-heading"
             className="text-3xl md:text-4xl font-bold text-blue-900 mb-6"
           >
-            Sobre a Protect Tecnologia
+            Sobre a Protect Network
           </h2>
 
           <p className="text-gray-700 mb-6 text-base sm:text-lg">
-            A Protect Tecnologia é referência em soluções de segurança eletrônica e infraestrutura de redes no Nordeste. Há mais de duas décadas, desenvolvemos projetos sob medida com foco em inovação, confiabilidade e excelência no atendimento.
+            A Protect Network é referência em soluções de segurança eletrônica e infraestrutura de redes no Nordeste. Há mais de duas décadas, desenvolvemos projetos sob medida com foco em inovação, confiabilidade e excelência no atendimento.
           </p>
           <p className="text-gray-700 mb-6 text-base sm:text-lg">
             Com uma equipe multidisciplinar altamente qualificada, entregamos soluções completas para empresas e residências que exigem o melhor em CFTV, redes corporativas, controle de acesso e suporte técnico. Somos movidos pela confiança que nossos clientes depositam em nosso trabalho.

@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Protect Tecnologia</title>
+        <title>Protect Network</title>
         <meta name="description" content="Soluções em segurança eletrônica e redes" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -59,7 +59,7 @@ export default function Home() {
               Nossos Serviços
             </h2>
             <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-              Conheça as soluções da Protect Tecnologia para proteger seu patrimônio com inovação, desempenho e confiabilidade.
+              Conheça as soluções da Protect Network para proteger seu patrimônio com inovação, desempenho e confiabilidade.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

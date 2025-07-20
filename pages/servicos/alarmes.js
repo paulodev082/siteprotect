@@ -74,7 +74,7 @@ export default function Alarmes() {
 
           <div className="text-center">
             <Link
-              href="https://wa.me/558287709274?text=Olá! Tenho interesse no serviço de Alarmes e Sensores da Protect Tecnologia. Pode me passar mais informações?"
+              href="https://wa.me/558287709274?text=Olá! Tenho interesse no serviço de Alarmes e Sensores da Protect Network. Pode me passar mais informações?"
               target="_blank"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
             >

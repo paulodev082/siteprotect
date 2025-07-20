@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* Sobre a empresa */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">Protect Tecnologia</h3>
+          <h3 className="text-lg font-semibold mb-3">Protect Network</h3>
           <p className="text-sm text-gray-200 leading-relaxed">
             Soluções em segurança eletrônica, redes estruturadas e suporte técnico.
             Protegendo o que é mais importante para você com tecnologia e confiança.
@@ -85,7 +85,7 @@ export default function Footer() {
         <div className="flex justify-center mb-2">
           <ShieldCheck className="text-greenwhatsapp" size={20} />
         </div>
-        © {new Date().getFullYear()} Protect Tecnologia. Todos os direitos reservados.
+        © {new Date().getFullYear()} Protect Network. Todos os direitos reservados.
       </div>
     </footer>
   );

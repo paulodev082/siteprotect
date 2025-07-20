@@ -34,8 +34,8 @@ export default function Servicos() {
   return (
     <>
       <Head>
-        <title>Serviços | Protect Tecnologia</title>
-        <meta name="description" content="Conheça todos os serviços oferecidos pela Protect Tecnologia." />
+        <title>Serviços | Protect Network</title>
+        <meta name="description" content="Conheça todos os serviços oferecidos pela Protect Network." />
       </Head>
 
       <Header />
@@ -46,7 +46,7 @@ export default function Servicos() {
             Soluções em Segurança e Tecnologia
           </h1>
           <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-            A Protect Tecnologia oferece serviços completos para proteger, conectar e estruturar seu ambiente com eficiência. Conheça abaixo nossas principais especialidades.
+            A Protect Network oferece serviços completos para proteger, conectar e estruturar seu ambiente com eficiência. Conheça abaixo nossas principais especialidades.
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
