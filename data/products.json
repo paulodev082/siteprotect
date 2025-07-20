@@ -1,62 +1,170 @@
 [
   {
-    "name": "Câmera Bullet HD Intelbras",
-    "description": "Câmera Bullet HD com infravermelho, ideal para áreas externas. Resolução HD 720p. Lente de 2.6mm.",
+    "name": "Câmera Bullet VHD 1220 B G5",
+    "description": "Câmera Multi HD com infravermelho de até 20m, ideal para ambientes externos.",
     "category": "Câmeras Intelbras",
-    "image": "/images/catalogo/camera-bullet-hd.jpg"
+    "image": "/images/catalogo/Camera_Bullet_VHD_1220_B_G5.jpg"
   },
   {
-    "name": "Câmera Dome Full HD Intelbras",
-    "description": "Câmera Dome Full HD com visão noturna e instalação discreta para ambientes internos.",
+    "name": "Câmera Dome VHD 1120 D G5",
+    "description": "Câmera Multi HD dome com resolução HD e IR de até 20 metros.",
     "category": "Câmeras Intelbras",
-    "image": "/images/catalogo/camera-dome-full-hd.jpg"
+    "image": "/images/catalogo/Camera_Dome _VHD_1120_D_G5.jpg"
   },
   {
-    "name": "Central de Alarme Intelbras AMT 2018E",
-    "description": "Central de alarme com 18 zonas, discadora integrada e controle remoto. Ideal para residências e empresas.",
-    "category": "Centrais de Alarme Intelbras",
-    "image": "/images/catalogo/central-amt-2018e.png"
+    "name": "Câmera Wi-Fi iC3",
+    "description": "Câmera IP Wi-Fi com resolução HD, áudio bidirecional e visão noturna.",
+    "category": "Câmeras Intelbras",
+    "image": "/images/catalogo/Camera_Wi-Fi_iC3.jpg"
   },
   {
-    "name": "Central de Alarme CP 11200",
-    "description": "Central de alarme com suporte a sensores com fio e sem fio. Fácil configuração e monitoramento remoto.",
-    "category": "Centrais de Alarme Intelbras",
-    "image": "/images/catalogo/central-cp-11200.jpg"
+    "name": "Câmera IP VIP 3430 B G2",
+    "description": "Câmera IP Full HD com PoE e lente de 3.6 mm, ideal para projetos profissionais.",
+    "category": "Câmeras Intelbras",
+    "image": "/images/catalogo/Camera_IP_VIP_3430_B_G2.jpg"
   },
   {
-    "name": "Roteador Wi-Fi Dual Band Intelbras",
-    "description": "Roteador com frequências 2.4GHz e 5GHz, ideal para streaming e jogos online com maior estabilidade.",
-    "category": "Roteadores Intelbras",
-    "image": "/images/catalogo/roteador-dualband.jpg"
-  },
-  {
-    "name": "Roteador Mesh Intelbras Twibi Giga",
-    "description": "Sistema Mesh que cobre grandes áreas com Wi-Fi rápido e estável. Instalação fácil via app.",
-    "category": "Roteadores Intelbras",
-    "image": "/images/catalogo/roteador-twibi.jpg"
-  },
-  {
-    "name": "Cabo de Rede Cat 5e UTP 100m",
-    "description": "Cabo de rede UTP categoria 5e com 100 metros, ideal para instalações residenciais e comerciais.",
-    "category": "Cabos de Rede CAT 5 e 6",
-    "image": "/images/catalogo/cabo-cat5e.jpg"
-  },
-  {
-    "name": "Cabo de Rede Cat 6 Blindado 305m",
-    "description": "Cabo blindado Cat 6 com 305 metros, ideal para ambientes com maior interferência eletromagnética.",
-    "category": "Cabos de Rede CAT 5 e 6",
-    "image": "/images/catalogo/cabo-cat6-blindado.png"
-  },
-  {
-    "name": "Gravador DVR Intelbras MHDX 3108",
-    "description": "Gravador DVR para até 8 canais com suporte a câmeras HD, visualização remota e fácil backup.",
+    "name": "DVR Intelbras MHDX 3104",
+    "description": "Gravador digital para até 4 canais Multi HD, com acesso remoto e fácil instalação.",
     "category": "Gravadores DVR",
-    "image": "/images/catalogo/gravador-dvr.jpg"
+    "image": "/images/catalogo/DVR_Intelbras_MH_DX_3104.png"
   },
   {
-    "name": "Gravador NVR Intelbras NVD 3132",
-    "description": "Gravador NVR IP para até 32 câmeras. Alta capacidade de armazenamento e suporte a monitoramento remoto.",
+    "name": "DVR Intelbras MHDX 3116",
+    "description": "DVR de 16 canais com compressão H.265 e visualização remota por aplicativo.",
     "category": "Gravadores DVR",
-    "image": "/images/catalogo/gravador-nvr.jpg"
-  }
+    "image": "/images/catalogo/DVR_Intelbras_M_DX_3116.png"
+  },
+  {
+    "name": "NVR Intelbras NVD 3316",
+    "description": "Gravador IP para 16 câmeras com suporte a resoluções Full HD e gerenciamento remoto.",
+    "category": "Gravadores DVR",
+    "image": "/images/catalogo/gravador-digital-de-video-em-rede-nvd-3316-p.jpg"
+  },
+  {
+    "name": "Central de Alarme AMT 2018 E",
+    "description": "Central com 18 zonas, discadora integrada e controle remoto incluso.",
+    "category": "Centrais de Alarme Intelbras",
+    "image": "/images/catalogo/Intelbras-AMT_2010-1.png"
+  },
+  {
+    "name": "Sensor de Movimento IVP 3000 PET",
+    "description": "Sensor infravermelho com imunidade a animais de até 20 kg.",
+    "category": "Centrais de Alarme Intelbras",
+    "image": "/images/catalogo/Sensor_VP_3000_PET.jpg"
+  },
+  {
+    "name": "Tomada Inteligente Izy Smart",
+    "description": "Tomada Wi-Fi controlada por app, compatível com Alexa e Google Assistente.",
+    "category": "Casa Inteligente",
+    "image": "/images/catalogo/tomada_izt_smart.png"
+  },
+  {
+    "name": "Lâmpada Smart LED EWS 410",
+    "description": "Lâmpada Wi-Fi RGB, controle por aplicativo, dimerizável e programável.",
+    "category": "Casa Inteligente",
+    "image": "/images/catalogo/lampada-led-smart-inteligente-wifi-alexa-intelbras-ews410-2.jpg"
+  },
+  {
+    "name": "Video porteiro IVR 1010",
+    "description": "Video porteiro com display interno de 4,3\" e função abertura de fechadura.",
+    "category": "Video porteiros",
+    "image": "/images/catalogo/porteiro-eletron-intelb-video-ivr-10101-8d69238da692454bda15385860661388-1024-1024.jpg"
+  },
+  {
+    "name": "Video porteiro Wi-Fi Allo w5",
+    "description": "Video porteiro com conexão Wi-Fi, visualização remota e áudio bidirecional.",
+    "category": "Video porteiros",
+    "image": "/images/catalogo/6a05d179-a591-4220-93ac-8b5fa6b14d9a.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+  },
+  {
+    "name": "Roteador Wi-fi W5 1200GS Preto",
+    "description": "Roteador Wi-fi W5 1200GS Preto, ideal para residências.",
+    "category": "Roteadores Intelbras",
+    "image": "/images/catalogo/61dsQgNK4JL._AC_SX679_.jpg"
+  },
+  {
+    "name": "Wi-Fi Mesh Twibi Giga",
+    "description": "Sistema mesh para cobertura total da casa com Wi-Fi estável e rápido.",
+    "category": "Roteadores Intelbras",
+    "image": "/images/catalogo/twibi.jpg"
+  },
+  {
+    "name": "Nobreak XNB 600 VA",
+    "description": "Nobreak bivolt automático com 4 tomadas e autonomia para até 30 minutos.",
+    "category": "Energia Intelbras",
+    "image": "/images/catalogo/nobreak.jpg"
+  },
+  {
+    "name": "Fonte Chaveada EF 1205",
+    "description": "Fonte de alimentação 12V com 5A de corrente para câmeras e sistemas de alarme.",
+    "category": "Energia Intelbras",
+    "image": "/images/catalogo/Fonte _1205.jpg"
+  },
+  {
+    "name": "Cabo de Rede Cat5e 100m",
+    "description": "Cabo UTP Cat5e para redes e sistemas de CFTV com 100 metros.",
+    "category": "Cabos de Rede CAT 5 e 6",
+    "image": "/images/catalogo/CabodeRedeCat5e100m.jpg"
+  },
+  {
+    "name": "HD WD Purple 1TB",
+    "description": "HD de 1TB projetado para gravação contínua em CFTV com alta durabilidade.",
+    "category": "Acessórios para CFTV",
+    "image": "/images/catalogo/HDWDPurple1TB.jpg"
+  },
+  {
+    "name": "Roteador Wi-Fi RF 1200",
+    "description": "Roteador dual band com tecnologia AC e 4 antenas externas.",
+    "category": "Roteadores Intelbras",
+    "image": "/images/catalogo/roteador_rf1200.jpg"
+  },
+  {
+    "name": "Cabo de Rede CAT6 UTP",
+    "description": "Cabo de rede categoria 6 sem blindagem, ideal para redes corporativas.",
+    "category": "Cabos de Rede CAT 5 e 6",
+    "image": "/images/catalogo/CabodeRedeCAT6UTP.jpg"
+  },
+  {
+    "name": "Roteador Wi-Fi Intelbras ACtion RG 1200",
+    "description": "Roteador dual band com 1200 Mbps, ideal para streaming e jogos online.",
+    "category": "Roteadores Intelbras",
+    "image": "/images/catalogo/RoteadorRG1200.jpg"
+  },
+  {
+    "name": "SWITCH GERENCIAVEL 24P+4P SFP GIGAB. POE S2328G+",
+    "description": "Este switch tem uma capacidade de comutação de 56 GB/s.",
+    "category": "Switches Intelbras",
+    "image": "/images/catalogo/swtichgerenciavelpoe.jpg"
+  },
+  {
+    "name": "Fechadura Digital FR 320",
+    "description": "Fechadura com teclado touch, senha de acesso e travamento automático.",
+    "category": "Fechaduras Digitais",
+    "image": "/images/catalogo/FechaduraDigitalFR20.jpg"
+  },
+  {
+    "name": "Nobreak XNB 1800 VA",
+    "description": "Nobreak com 6 tomadas, autonomia para até 60 minutos e proteção contra surtos.",
+    "category": "Nobreaks",
+    "image": "/images/catalogo/NobreakXNB 800VA.jpg"
+  },
+  {
+  "name": "Motor deslizante Intelbras iMotion 400",
+  "description": "Motor para portão deslizante até 400kg, com central embarcada e suporte a controle remoto.",
+  "category": "Motores para Portão",
+  "image": "/images/catalogo/motor400.jpg"
+},
+{
+  "name": "Motor deslizante Intelbras iMotion 600",
+  "description": "Motor para portões residenciais e comerciais, suporta até 600kg, silencioso e com central inteligente.",
+  "category": "Motores para Portão",
+  "image": "/images/catalogo/motor600.jpg"
+},
+{
+  "name": "Kit Motor Basculante Intelbras iMotion BASE",
+  "description": "Kit completo para portões basculantes com acionamento rápido, seguro e durável.",
+  "category": "Motores para Portão",
+  "image": "/images/catalogo/KitBASE.jpg"
+}
 ]

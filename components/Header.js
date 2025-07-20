@@ -11,6 +11,7 @@ const servicos = [
   { nome: "Alarmes e Sensores", href: "/servicos/alarmes" },
   { nome: "Redes Corporativas", href: "/servicos/redes" },
   { nome: "Infraestrutura de TI", href: "/servicos/infraestrutura" },
+  { nome: "Locação para Eventos", href: "/servicos/locacao" }, 
 ];
 
 export default function Header() {

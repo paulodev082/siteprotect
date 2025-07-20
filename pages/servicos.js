@@ -29,6 +29,12 @@ export default function Servicos() {
       imagem: "/images/servicos/infraestrutura.png",
       link: "/servicos/infraestrutura",
     },
+    {
+      title: "Locação para Eventos",
+      description: "Soluções completas de CFTV, internet Wi-Fi e infraestrutura temporária para eventos, com montagem rápida e suporte técnico especializado.",
+      image: "/images/servicos/locacao.jpg",
+      link: "/servicos/locacao"
+    }
   ];
 
   return (

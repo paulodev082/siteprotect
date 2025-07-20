@@ -31,6 +31,12 @@ export default function Home() {
       imagem: "/images/servicos/infraestrutura.png",
       link: "/servicos/infraestrutura",
     },
+    {
+      titulo: "Locação para Eventos",
+      descricao: "Soluções completas para eventos com câmeras, Wi-Fi e suporte técnico.",
+      imagem: "/images/servicos/estande.jpeg",
+      link: "/servicos/locacao",
+    },
   ];
 
   return (
@@ -62,7 +68,7 @@ export default function Home() {
               Conheça as soluções da Protect Network para proteger seu patrimônio com inovação, desempenho e confiabilidade.
             </p>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {servicos.map((item, index) => (
                 <div
                   key={index}

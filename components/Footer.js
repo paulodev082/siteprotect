@@ -40,6 +40,7 @@ export default function Footer() {
             <li><Link href="/servicos/alarmes" className="hover:underline">Alarmes e Sensores</Link></li>
             <li><Link href="/servicos/redes" className="hover:underline">Redes Corporativas</Link></li>
             <li><Link href="/servicos/infraestrutura" className="hover:underline">Infraestrutura de TI</Link></li>
+            <li><Link href="/servicos/locacao" className="hover:underline">Locação para Eventos</Link></li>
             <li>
               <Link
                 href="https://wa.me/558287709274"
