@@ -1,4 +1,3 @@
-// pages/index.js
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -6,6 +5,7 @@ import Sobre from "../components/Sobre";
 import Footer from "../components/Footer";
 import ClientesSlider from "../components/ClientesSlider";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const servicos = [
@@ -58,11 +58,6 @@ export default function Home() {
         {/* Slider de clientes atendidos */}
         <ClientesSlider />
 
-        {/* Transição entre Sobre e Serviços */}
-        <div className="bg-blue-50 text-blue-900 text-center py-8 shadow-inner font-semibold tracking-wide text-lg">
-          Conheça nossas soluções em segurança eletrônica e redes
-        </div>
-
         {/* Seção de serviços */}
         <section className="bg-white py-16">
           <div className="max-w-6xl mx-auto px-6">
@@ -79,9 +74,11 @@ export default function Home() {
                   key={index}
                   className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100"
                 >
-                  <img
+                  <Image
                     src={item.imagem}
                     alt={item.titulo}
+                    width={400}
+                    height={160}
                     className="w-full h-40 object-cover"
                   />
                   <div className="p-5">
@@ -98,6 +95,15 @@ export default function Home() {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="text-center mt-10">
+              <Link
+                href="/servicos"
+                className="inline-block bg-blue-700 text-white font-medium py-3 px-6 rounded hover:bg-blue-800 transition"
+              >
+                Ver todos os serviços
+              </Link>
             </div>
           </div>
         </section>
