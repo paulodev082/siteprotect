@@ -1,9 +1,10 @@
+// components/Footer.js
 import Link from "next/link";
 import { PhoneCall, Mail, MapPin, ShieldCheck } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-10 mt-20">
+    <footer className="bg-blue-900 text-white pt-10 mt-20">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* Sobre a empresa */}
         <div>
@@ -57,26 +58,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Certificações</h3>
           <div className="flex flex-wrap gap-4">
-            <img
-              src="/images/selos/selo-anatel.jpeg"
-              alt="Selo ANATEL"
-              className="h-10 w-auto bg-white p-1 rounded shadow"
-            />
-            <img
-              src="/images/selos/selo-seguranca.jpg"
-              alt="Selo de Segurança"
-              className="h-10 w-auto bg-white p-1 rounded shadow"
-            />
-            <img
-              src="/images/selos/Logomarca_Intelbras_verde.png"
-              alt="Selo ANATEL"
-              className="h-10 w-auto bg-white p-1 rounded shadow"
-            />
-             <img
-              src="/images/selos/Mikrotik.jpg"
-              alt="Selo ANATEL"
-              className="h-10 w-auto bg-white p-1 rounded shadow"
-            />
+            <img src="/images/selos/selo-anatel.jpeg" alt="ANATEL" className="h-10 bg-white p-1 rounded shadow" />
+            <img src="/images/selos/selo-seguranca.jpg" alt="Segurança" className="h-10 bg-white p-1 rounded shadow" />
+            <img src="/images/selos/Logomarca_Intelbras_verde.png" alt="Intelbras" className="h-10 bg-white p-1 rounded shadow" />
+            <img src="/images/selos/Mikrotik.jpg" alt="Mikrotik" className="h-10 bg-white p-1 rounded shadow" />
           </div>
         </div>
       </div>

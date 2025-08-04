@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Link from "next/link";
+import FormOrcamento from "../../components/FormOrcamento";
 import { PhoneCall, HardDrive, Wrench, Settings2 } from "lucide-react";
 
 export default function Infraestrutura() {
@@ -78,17 +78,8 @@ export default function Infraestrutura() {
             />
           </div>
 
-          {/* Botão WhatsApp */}
-          <div className="text-center">
-            <Link
-              href="https://wa.me/558287709274?text=Olá! Tenho interesse no serviço de Infraestrutura de TI da Protect Network. Pode me enviar mais informações?"
-              target="_blank"
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
-            >
-              <PhoneCall size={20} />
-              Solicitar orçamento via WhatsApp
-            </Link>
-          </div>
+          {/* Formulário de orçamento */}
+          <FormOrcamento assunto="Infraestrutura de TI" />
         </div>
       </section>
 

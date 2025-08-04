@@ -2,8 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Link from "next/link";
-import { PhoneCall, Camera, Eye, ShieldCheck } from "lucide-react";
+import FormOrcamento from "../../components/FormOrcamento";
 
 export default function Locacao() {
   return (
@@ -48,19 +47,8 @@ export default function Locacao() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl shadow">
-            <h2 className="text-2xl font-semibold text-blue-800 mb-4">Solicite um orçamento</h2>
-            <p className="mb-4 text-gray-700">
-              Fale conosco pelo WhatsApp e receba um atendimento personalizado para seu evento.
-            </p>
-            <Link
-              href="https://wa.me/558287709274?text=Olá! Gostaria de um orçamento para locação de equipamentos para evento."
-              className="inline-block bg-green-500 text-white font-semibold px-6 py-3 rounded hover:bg-green-600 transition"
-              target="_blank"
-            >
-              Solicitar via WhatsApp
-            </Link>
-          </div>
+          {/* Substituímos o botão por um formulário profissional */}
+          <FormOrcamento assunto="Locação para Eventos" />
         </div>
 
         <div className="mt-12 text-center">

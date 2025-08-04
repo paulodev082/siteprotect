@@ -11,7 +11,7 @@ const servicos = [
   { nome: "Alarmes e Sensores", href: "/servicos/alarmes" },
   { nome: "Redes Corporativas", href: "/servicos/redes" },
   { nome: "Infraestrutura de TI", href: "/servicos/infraestrutura" },
-  { nome: "Locação para Eventos", href: "/servicos/locacao" }, 
+  { nome: "Locação para Eventos", href: "/servicos/locacao" },
 ];
 
 export default function Header() {
@@ -57,7 +57,7 @@ export default function Header() {
             Início
           </Link>
 
-          {/* Dropdown Serviços com hover estável */}
+          {/* Dropdown Serviços */}
           <div
             className="relative"
             onMouseEnter={() => setSubmenuOpen(true)}
@@ -91,6 +91,15 @@ export default function Header() {
                     </Link>
                   </li>
                 ))}
+                <hr className="my-1 border-gray-200" />
+                <li>
+                  <Link
+                    href="/servicos"
+                    className="block px-4 py-2 font-semibold text-blue-700 hover:bg-blue-50 hover:text-blue-900"
+                  >
+                    Ver todos os serviços
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -124,7 +133,7 @@ export default function Header() {
               Início
             </Link>
 
-            {/* Submenu Serviços com visual aprimorado */}
+            {/* Submenu Mobile */}
             <div className="w-full">
               <button
                 onClick={() => setMobileSubmenuOpen(!mobileSubmenuOpen)}
@@ -151,6 +160,16 @@ export default function Header() {
                       </Link>
                     </li>
                   ))}
+                  <hr className="my-2 border-gray-200" />
+                  <li>
+                    <Link
+                      href="/servicos"
+                      onClick={toggleMenu}
+                      className="block text-blue-800 font-semibold px-2 py-2 rounded hover:bg-blue-100 transition"
+                    >
+                      Ver todos os serviços
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,8 +1,10 @@
+// pages/index.js
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Sobre from "../components/Sobre";
 import Footer from "../components/Footer";
+import ClientesSlider from "../components/ClientesSlider";
 import Link from "next/link";
 
 export default function Home() {
@@ -52,6 +54,9 @@ export default function Home() {
       <main>
         <Hero />
         <Sobre />
+
+        {/* Slider de clientes atendidos */}
+        <ClientesSlider />
 
         {/* Transição entre Sobre e Serviços */}
         <div className="bg-blue-50 text-blue-900 text-center py-8 shadow-inner font-semibold tracking-wide text-lg">
