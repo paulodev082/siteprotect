@@ -6,6 +6,7 @@ import Sobre from "../components/Sobre";
 import Footer from "../components/Footer";
 import ClientesSlider from "../components/ClientesSlider";
 import Link from "next/link";
+import Image from "next/image"; 
 
 export default function Home() {
   const servicos = [
@@ -78,10 +79,13 @@ export default function Home() {
                   key={index}
                   className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100"
                 >
-                  <img
+                  <Image
                     src={item.imagem}
                     alt={item.titulo}
+                    width={400}
+                    height={160}
                     className="w-full h-40 object-cover"
+                    priority={index < 3}
                   />
                   <div className="p-5">
                     <h3 className="text-blue-800 font-bold text-lg mb-2">
