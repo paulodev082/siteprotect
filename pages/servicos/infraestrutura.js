@@ -1,7 +1,8 @@
+// pages/servicos/infraestrutura.js
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import FormOrcamento from "../../components/FormOrcamento";
-import { PhoneCall, HardDrive, Wrench, Settings2 } from "lucide-react";
+import { ServerCog, Cable, ShieldCheck } from "lucide-react";
 
 export default function Infraestrutura() {
   return (
@@ -12,14 +13,14 @@ export default function Infraestrutura() {
         <div className="max-w-6xl mx-auto px-6">
           {/* Título */}
           <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center">
-            Infraestrutura de TI com Alta Performance e Organização Profissional
+            Infraestrutura de TI para Empresas Conectadas e Produtivas
           </h1>
 
           {/* Imagem */}
           <div className="mb-10 flex justify-center">
             <img
               src="/images/servicos/infraestrutura.png"
-              alt="Ambiente de infraestrutura de TI"
+              alt="Infraestrutura de TI corporativa"
               className="rounded-xl shadow-2xl w-full max-w-xl h-auto object-cover"
               loading="lazy"
             />
@@ -28,49 +29,49 @@ export default function Infraestrutura() {
           {/* Descrição geral */}
           <div className="grid md:grid-cols-2 gap-10 text-gray-700 text-lg leading-relaxed mb-14">
             <p>
-              Oferecemos soluções completas de infraestrutura de TI, com cabeamento estruturado, organização de racks, controle de acesso e suporte técnico especializado.
+              Planejamos e executamos toda a infraestrutura de TI da sua empresa com foco em desempenho, estabilidade e escalabilidade. Desde a estrutura física até a configuração de servidores e sistemas.
             </p>
             <p>
-              Ideal para empresas que desejam desempenho, segurança e organização no ambiente tecnológico. Entregamos ambientes prontos para crescimento escalável e sem dores de cabeça.
+              Conte com nossa experiência para transformar o ambiente tecnológico do seu negócio com cabeamento organizado, redes seguras e suporte técnico profissional.
             </p>
           </div>
 
           {/* Benefícios */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-              <HardDrive className="text-blue-600 mb-3" size={32} />
-              <h3 className="font-bold text-blue-800 text-lg mb-2">Ambiente Organizado</h3>
-              <p className="text-sm text-gray-700">Racks bem estruturados e padronizados, facilitando manutenção e controle.</p>
+              <ServerCog className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">Servidores e Rack</h3>
+              <p className="text-sm text-gray-700">Instalação e configuração profissional de servidores e salas técnicas.</p>
             </div>
             <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-              <Wrench className="text-blue-600 mb-3" size={32} />
-              <h3 className="font-bold text-blue-800 text-lg mb-2">Instalação Profissional</h3>
-              <p className="text-sm text-gray-700">Equipe experiente, com ferramentas e técnicas adequadas para cada tipo de ambiente.</p>
+              <Cable className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">Cabeamento Estruturado</h3>
+              <p className="text-sm text-gray-700">Organização, desempenho e certificação de toda a rede física.</p>
             </div>
             <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-              <Settings2 className="text-blue-600 mb-3" size={32} />
-              <h3 className="font-bold text-blue-800 text-lg mb-2">Infraestrutura Pronta para Crescer</h3>
-              <p className="text-sm text-gray-700">Projetos pensados para expansão, evitando retrabalho e gargalos no futuro.</p>
+              <ShieldCheck className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">Segurança e Backup</h3>
+              <p className="text-sm text-gray-700">Firewall, antivírus, políticas de acesso e backup inteligente.</p>
             </div>
           </div>
 
-          {/* Prova social */}
+          {/* Depoimentos */}
           <div className="bg-gray-50 p-6 rounded-xl shadow-inner mb-16">
-            <h3 className="text-xl font-semibold text-blue-800 mb-4 text-center">Clientes satisfeitos</h3>
+            <h3 className="text-xl font-semibold text-blue-800 mb-4 text-center">O que dizem nossos clientes</h3>
             <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-700">
               <blockquote className="bg-white p-4 rounded shadow">
-                “A organização e o desempenho da nossa infraestrutura melhoraram 100% depois que a Protect entrou. Trabalho impecável!”<br />
-                <span className="block mt-2 font-semibold text-blue-700">— Marcos, Diretor de TI</span>
+                “Organizaram todo o cabeamento e estrutura de rede da empresa. Agora temos mais velocidade e controle.”<br />
+                <span className="block mt-2 font-semibold text-blue-700">— Leandro, Coordenador de TI</span>
               </blockquote>
               <blockquote className="bg-white p-4 rounded shadow">
-                “Serviço excelente, equipe muito técnica e cuidadosa. O rack ficou lindo e funcional!”<br />
-                <span className="block mt-2 font-semibold text-blue-700">— Juliana, Administradora</span>
+                “Excelente serviço! Trouxeram soluções modernas que facilitaram muito nosso trabalho.”<br />
+                <span className="block mt-2 font-semibold text-blue-700">— Priscila, Gerente Operacional</span>
               </blockquote>
             </div>
           </div>
 
-          {/* Selo de segurança */}
-          <div className="flex justify-center mb-12">
+          {/* Selo visual */}
+          <div className="flex justify-center mb-10">
             <img
               src="/images/favicon.png"
               alt="Selo de segurança"
@@ -78,7 +79,7 @@ export default function Infraestrutura() {
             />
           </div>
 
-          {/* Formulário de orçamento */}
+          {/* Formulário */}
           <FormOrcamento assunto="Infraestrutura de TI" />
         </div>
       </section>

@@ -1,122 +1,88 @@
 // pages/servicos/locacao.js
-import Head from "next/head";
-import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import FormOrcamento from "../../components/FormOrcamento";
-import {
-  Wifi,
-  Camera,
-  Router,
-  Truck,
-  Headset,
-  ShieldCheck,
-} from "lucide-react";
+import { Video, Wifi, Wrench } from "lucide-react";
 
 export default function Locacao() {
   return (
     <>
-      <Head>
-        <title>Locação para Eventos | Protect Network</title>
-        <meta
-          name="description"
-          content="Soluções completas de CFTV, internet Wi-Fi e infraestrutura temporária para eventos com a qualidade da Protect Network."
-        />
-      </Head>
-
       <Header />
 
-      <main className="bg-white min-h-screen flex flex-col justify-start">
-        <section className="bg-white py-20">
-          <div className="max-w-6xl mx-auto px-6">
-            <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 text-center">
-              Locação de Tecnologia para Eventos
-            </h1>
+      <section className="bg-white py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          {/* Título */}
+          <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center">
+            Locação de Equipamentos e Estrutura para Eventos
+          </h1>
 
-            <p className="text-center text-gray-700 max-w-2xl mx-auto mb-10 text-lg">
-              Oferecemos soluções temporárias completas em CFTV, Wi-Fi dedicado e
-              infraestrutura de rede para eventos de todos os portes. Ideal para
-              feiras, shows, congressos e formaturas.
-            </p>
-
-            <div className="mb-14 flex justify-center">
-              <Image
-                src="/images/servicos/locacao.jpg"
-                alt="Locação de equipamentos para eventos"
-                width={1000}
-                height={500}
-                className="rounded-xl shadow-2xl w-full max-w-4xl h-auto object-cover"
-                priority
-              />
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Camera className="text-blue-600 mb-3" size={32} />
-                <h3 className="font-bold text-blue-800 text-lg mb-2">Monitoramento ao Vivo</h3>
-                <p className="text-sm text-gray-700">Câmeras de segurança com acesso remoto e vigilância 24h.</p>
-              </div>
-              <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Wifi className="text-blue-600 mb-3" size={32} />
-                <h3 className="font-bold text-blue-800 text-lg mb-2">Wi-Fi Dedicado</h3>
-                <p className="text-sm text-gray-700">Rede estável para público, equipe e imprensa.</p>
-              </div>
-              <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Router className="text-blue-600 mb-3" size={32} />
-                <h3 className="font-bold text-blue-800 text-lg mb-2">Infraestrutura de Rede</h3>
-                <p className="text-sm text-gray-700">Switches, roteadores e cabeamento temporário.</p>
-              </div>
-              <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Truck className="text-blue-600 mb-3" size={32} />
-                <h3 className="font-bold text-blue-800 text-lg mb-2">Trailer Equipado</h3>
-                <p className="text-sm text-gray-700">Unidade móvel com tecnologia integrada de vigilância.</p>
-              </div>
-              <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
-                <Headset className="text-blue-600 mb-3" size={32} />
-                <h3 className="font-bold text-blue-800 text-lg mb-2">Suporte Técnico</h3>
-                <p className="text-sm text-gray-700">Assistência durante toda a realização do evento.</p>
-              </div>
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-xl shadow-inner mb-16">
-              <h3 className="text-xl font-semibold text-blue-800 mb-4 text-center">
-                Eventos protegidos com confiança
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-700">
-                <blockquote className="bg-white p-4 rounded shadow">
-                  “Alugamos com a Protect para nosso festival e foi tudo impecável:
-                  imagens ao vivo, Wi-Fi sem falhas e suporte nota 10.”
-                  <br />
-                  <span className="block mt-2 font-semibold text-blue-700">
-                    — Carla, Produtora de Eventos
-                  </span>
-                </blockquote>
-                <blockquote className="bg-white p-4 rounded shadow">
-                  “A estrutura de câmeras com trailer da Protect fez toda
-                  diferença na segurança do nosso evento.”
-                  <br />
-                  <span className="block mt-2 font-semibold text-blue-700">
-                    — Marcos, Diretor de Logística
-                  </span>
-                </blockquote>
-              </div>
-            </div>
-
-            <div className="flex justify-center mb-10">
-              <Image
-                src="/images/favicon.png"
-                alt="Selo de confiança"
-                width={80}
-                height={80}
-                className="w-20 h-auto"
-              />
-            </div>
-
-            {/* Formulário com assunto pré-definido */}
-            <FormOrcamento assunto="Locação para Eventos" />
+          {/* Imagem */}
+          <div className="mb-10 flex justify-center">
+            <img
+              src="/images/servicos/locacao.jpg"
+              alt="Locação para eventos"
+              className="rounded-xl shadow-2xl w-full max-w-xl h-auto object-cover"
+              loading="lazy"
+            />
           </div>
-        </section>
-      </main>
+
+          {/* Descrição geral */}
+          <div className="grid md:grid-cols-2 gap-10 text-gray-700 text-lg leading-relaxed mb-14">
+            <p>
+              A Protect oferece infraestrutura tecnológica completa para eventos de pequeno, médio e grande porte. Garantimos segurança, conectividade e suporte técnico durante toda a operação.
+            </p>
+            <p>
+              Ideal para shows, feiras, congressos, formaturas e eventos corporativos. Cuidamos de tudo: câmeras, Wi-Fi, cabeamento, switches, roteadores e até trailer técnico com vigilância.
+            </p>
+          </div>
+
+          {/* Benefícios */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <Video className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">CFTV Profissional</h3>
+              <p className="text-sm text-gray-700">Câmeras com gravação local e visualização ao vivo do evento.</p>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <Wifi className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">Wi-Fi para Público e Staff</h3>
+              <p className="text-sm text-gray-700">Rede dedicada com roteadores e sinal de alta qualidade.</p>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <Wrench className="text-blue-600 mb-3" size={32} />
+              <h3 className="font-bold text-blue-800 text-lg mb-2">Infraestrutura Completa</h3>
+              <p className="text-sm text-gray-700">Trailer técnico, cabeamento, switches e suporte total.</p>
+            </div>
+          </div>
+
+          {/* Depoimentos */}
+          <div className="bg-gray-50 p-6 rounded-xl shadow-inner mb-16">
+            <h3 className="text-xl font-semibold text-blue-800 mb-4 text-center">O que dizem nossos clientes</h3>
+            <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-700">
+              <blockquote className="bg-white p-4 rounded shadow">
+                “Fechamos o evento com muito mais tranquilidade. A equipe cuidou de tudo com excelência.”<br />
+                <span className="block mt-2 font-semibold text-blue-700">— Tatiane, Produtora</span>
+              </blockquote>
+              <blockquote className="bg-white p-4 rounded shadow">
+                “Qualidade de internet e segurança de alto nível. Recomendo a todos os organizadores.”<br />
+                <span className="block mt-2 font-semibold text-blue-700">— Leonardo, Organizador</span>
+              </blockquote>
+            </div>
+          </div>
+
+          {/* Selo visual */}
+          <div className="flex justify-center mb-10">
+            <img
+              src="/images/favicon.png"
+              alt="Selo de segurança"
+              className="w-20 h-auto"
+            />
+          </div>
+
+          {/* Formulário */}
+          <FormOrcamento assunto="Locação para Eventos" />
+        </div>
+      </section>
 
       <Footer />
     </>
