@@ -1,10 +1,10 @@
 // components/Footer.js
 import Link from "next/link";
-import { PhoneCall, Mail, MapPin, ShieldCheck } from "lucide-react";
+import { PhoneCall, Mail, MapPin, ShieldCheck, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-900 text-white pt-10 mt-20">
+    <footer className="bg-blue-900 text-white pt-10">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* Sobre a empresa */}
         <div>
@@ -46,8 +46,9 @@ export default function Footer() {
               <Link
                 href="https://wa.me/558287709274"
                 target="_blank"
-                className="text-green-400 hover:underline"
+                className="flex items-center gap-2 text-green-400 hover:underline"
               >
+                <MessageCircle size={16} />
                 Fale no WhatsApp
               </Link>
             </li>
