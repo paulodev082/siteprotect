@@ -1,8 +1,4 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-
+// components/ClientesSlider.js
 export default function ClientesSlider() {
   const clientes = [
     "/images/clientes/cliente1.jpeg",
@@ -15,50 +11,75 @@ export default function ClientesSlider() {
     "/images/clientes/cliente8.png",
   ];
 
+  // Repete as logos 3x para garantir continuidade sem corte
+  const logos = [...clientes, ...clientes, ...clientes];
+
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white py-10 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
-        <h3 className="text-center text-2xl md:text-3xl font-bold text-blue-900 mb-6">
+        <h3 className="text-center text-2xl md:text-3xl font-bold text-blue-900 mb-8">
           Empresas que confiam na Protect
         </h3>
 
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          spaceBetween={20}
-          slidesPerView={2}
-          breakpoints={{
-            640: { slidesPerView: 3 },
-            768: { slidesPerView: 4 },
-            1024: { slidesPerView: 5 },
-          }}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
-          loop={true}
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }}
-        >
-          {clientes.map((src, index) => (
-            <SwiperSlide key={index}>
-              <div className="flex justify-center items-center h-20 px-4">
+        <div className="slider-container">
+          <div className="slider-track">
+            {logos.map((src, index) => (
+              <div key={index} className="logo-slide">
                 <img
                   src={src}
-                  alt={`Cliente ${index + 1}`}
+                  alt={`Logo cliente ${index + 1}`}
                   className="h-full w-auto object-contain"
-                  loading="lazy"
                   draggable={false}
                 />
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
-        {/* Setas visíveis só no desktop */}
-        <div className="hidden md:flex justify-between mt-4">
-          <div className="swiper-button-prev text-blue-600 hover:text-blue-800 cursor-pointer text-2xl" />
-          <div className="swiper-button-next text-blue-600 hover:text-blue-800 cursor-pointer text-2xl" />
+            ))}
+          </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .slider-container {
+          overflow: hidden;
+          width: 100%;
+          height: 80px;
+        }
+
+        .slider-track {
+          display: flex;
+          width: fit-content;
+          animation: scroll 40s linear infinite;
+        }
+
+        .logo-slide {
+          flex: 0 0 auto;
+          width: 160px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 20px;
+        }
+
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-33.333%);
+          }
+        }
+
+        @media (max-width: 768px) {
+          .logo-slide {
+            width: 120px;
+            padding: 0 10px;
+          }
+
+          .slider-track {
+            animation: scroll 40s linear infinite;
+          }
+        }
+      `}</style>
     </section>
   );
 }

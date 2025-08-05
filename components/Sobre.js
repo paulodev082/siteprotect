@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 export default function Sobre() {
   return (
     <section
-      className="bg-white py-20"
+      className="bg-white pt-12 pb-6 md:pt-20 md:pb-10"
       aria-labelledby="sobre-heading"
     >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-        {/* Imagem ilustrativa com animação */}
+        {/* Imagem com animação */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +40,8 @@ export default function Sobre() {
           <p className="text-gray-700 mb-6 text-base sm:text-lg">
             A Protect Network é referência em soluções de segurança eletrônica e infraestrutura de redes no Nordeste. Há mais de duas décadas, desenvolvemos projetos sob medida com foco em inovação, confiabilidade e excelência no atendimento.
           </p>
-          <p className="text-gray-700 mb-6 text-base sm:text-lg">
+
+          <p className="text-gray-700 text-base sm:text-lg">
             Com uma equipe multidisciplinar altamente qualificada, entregamos soluções completas para empresas e residências que exigem o melhor em CFTV, redes corporativas, controle de acesso e suporte técnico. Somos movidos pela confiança que nossos clientes depositam em nosso trabalho.
           </p>
         </motion.div>
